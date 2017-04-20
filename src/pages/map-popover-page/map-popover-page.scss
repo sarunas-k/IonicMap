@@ -1,12 +1,17 @@
 page-map-popover-page {
     .popover-container {
         padding: 10px;
+        overflow: hidden;
 
         span {
             font-size: 18px;
         }
         p {
             font-size: 12px;
+        }
+        img {
+            float: left;
+            margin-right: 10px;
         }
     }
 }

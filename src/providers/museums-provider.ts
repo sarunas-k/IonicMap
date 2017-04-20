@@ -29,34 +29,74 @@ export class MuseumsProvider {
   initData() {
     this.museums = [
       {
-        name: 'Kauno dramos teatras',
-        description: 'Nacionalinis Kauno dramos teatras – pirmasis profesionalus stacionarus dramos teatras Lietuvoje.',
-        lat: 54.89736,
-        lng: 23.910788
+        name: 'Tremties ir rezistencijos muziejus',
+        description: 'Aprašymas.',
+        lat: 54.8929806,
+        lng: 23.9251271,
+        imageUrl: '../assets/images/pic.jpg'
       },
       {
-        name: 'Kauno valstybinis muzikinis teatras',
-        description: 'Kauno valstybinis muzikinis teatras – muzikinio profilio teatras Kaune.',
-        lat: 54.896416,
-        lng: 23.906166
+        name: 'M. K. Ciurlionio dailes muziejus',
+        description: 'Aprašymas.',
+        lat: 54.9003558,
+        lng: 23.9109429,
+        imageUrl: '../assets/images/pic.jpg'
       },
       {
-        name: 'Kauno miesto kamerinis teatras',
-        description: 'Kauno kamerinis teatras – savivaldybės įvairaus žanro teatras Kaune, Kęstučio g. 74A.',
-        lat: 54.896566,
-        lng: 23.9077949
+        name: 'Vytauto Didžiojo karo muziejus	',
+        description: 'Aprašymas.',
+        lat: 54.8998822,
+        lng: 23.9120006,
+        imageUrl: '../assets/images/pic.jpg'
       },
       {
-        name: 'Kauno valstybinis lėlių teatras',
-        description: 'Kauno valstybinis lėlių teatras – valstybinis lėlių teatras vaikams. Įsteigtas 1958 m.',
-        lat: 54.8972591,
-        lng: 23.9073316
+        name: 'Tado Ivanausko zoologijos muziejus',
+        description: 'Aprašymas.',
+        lat: 54.898067,
+        lng: 23.903934,
+        imageUrl: '../assets/images/pic.jpg'
       },
       {
-        name: 'Kauno mažasis teatras',
-        description: 'Kauno mažasis teatras - Edukacinė programa vaikams',
-        lat: 54.898158,
-        lng: 23.892059
+        name: 'Kauno tvirtovės VII fortas',
+        description: 'Aprašymas.',
+        lat: 54.915513,
+        lng: 23.9282227,
+        imageUrl: '../assets/images/pic.jpg'
+      },
+      {
+        name: 'Lietuvos Liaudies Buities Muziejus',
+        description: 'Aprašymas.',
+        lat: 54.866405,
+        lng: 24.201013,
+        imageUrl: '../assets/images/pic.jpg'
+      },
+      {
+        name: 'Lietuvos aviacijos muziejus',
+        description: 'Aprašymas.',
+        lat: 54.8778491,
+        lng: 23.8900917,
+        imageUrl: '../assets/images/pic.jpg'
+      },
+      {
+        name: 'Kauno IX forto muziejus	',
+        description: 'Aprašymas.',
+        lat: 54.943955,
+        lng: 23.875282,
+        imageUrl: '../assets/images/pic.jpg'
+      },
+      {
+        name: 'Lietuvos dailės muziejus',
+        description: 'Aprašymas.',
+        lat: 54.6806047,
+        lng: 25.288688,
+        imageUrl: '../assets/images/pic.jpg'
+      },
+      {
+        name: 'Kauno rajono muziejus',
+        description: 'Aprašymas.',
+        lat: 54.9431792,
+        lng: 23.7844911,
+        imageUrl: '../assets/images/pic.jpg'
       }
     ];
   }

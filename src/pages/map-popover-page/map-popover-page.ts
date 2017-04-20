@@ -11,6 +11,7 @@ import { MuseumsProvider } from '../../providers/museums-provider';
 export class MapPopoverPage {
   name: string;
   description: string;
+  imageUrl: string; 
   museum: IMuseum;
 
   constructor(
@@ -23,6 +24,7 @@ export class MapPopoverPage {
     let museumIndex = this.navParams.get('museumIndex');
     this.museum = this.museumsProvider.getMuseumByIndex(museumIndex);
     this.name = this.museum.name;
+    this.imageUrl = this.museum.imageUrl;
     this.description = this.museum.description;
   }
 

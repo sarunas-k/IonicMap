@@ -76,4 +76,5 @@ export interface IMuseum {
   description: string;
   lat: number;
   lng: number;
+  imageUrl: string;
 }

@@ -24315,6 +24315,7 @@ ion-navbar.toolbar {
 
 page-map-popover-page .popover-container {
   padding: 10px;
+  overflow: hidden;
 }
 
 page-map-popover-page .popover-container span {
@@ -24323,6 +24324,11 @@ page-map-popover-page .popover-container span {
 
 page-map-popover-page .popover-container p {
   font-size: 12px;
+}
+
+page-map-popover-page .popover-container img {
+  float: left;
+  margin-right: 10px;
 }
 
 page-maps #map {
